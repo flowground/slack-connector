@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "no_latest": {
+            "type": "boolean"
+        },
+        "simple_latest": {
+            "type": "boolean"
+        },
+        "include_locale": {
+            "type": "boolean"
+        },
+        "presence_sub": {
+            "type": "boolean"
+        },
+        "no_unreads": {
+            "type": "boolean"
+        },
+        "batch_presence_aware": {
+            "type": "boolean"
+        },
+        "mpim_aware": {
+            "type": "boolean"
+        },
+        "token": {
+            "type": "string"
+        }
+    }
+}

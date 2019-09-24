@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "properties": {
+        "token": {
+            "type": "string"
+        },
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "attachments": {
+                    "description": "A JSON-based array of structured attachments, presented as a URL-encoded string.",
+                    "type": "string"
+                },
+                "text": {
+                    "description": "Text of the message to send. See below for an explanation of [formatting](#formatting). This field is usually required, unless you're providing only `attachments` instead.",
+                    "type": "string"
+                },
+                "link_names": {
+                    "description": "Find and link channel names and usernames.",
+                    "type": "boolean"
+                },
+                "parse": {
+                    "description": "Change how messages are treated. Defaults to `none`. See [below](#formatting).",
+                    "type": "string"
+                },
+                "user": {
+                    "description": "`id` of the user who will receive the ephemeral message. The user should be in the channel specified by the `channel` argument.",
+                    "type": "string"
+                },
+                "as_user": {
+                    "description": "Pass true to post the message as the authed bot. Defaults to false.",
+                    "type": "boolean"
+                },
+                "channel": {
+                    "description": "Channel, private group, or IM channel to send message to. Can be an encoded ID, or a name.",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

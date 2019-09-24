@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "token": {
+            "type": "string"
+        },
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "description": "Reaction (emoji) name.",
+                    "type": "string"
+                },
+                "file_comment": {
+                    "description": "File comment to add reaction to.",
+                    "type": "string"
+                },
+                "timestamp": {
+                    "description": "Timestamp of the message to add reaction to.",
+                    "type": "number"
+                },
+                "file": {
+                    "description": "File to add reaction to.",
+                    "type": "string"
+                },
+                "channel": {
+                    "description": "Channel where the message to add reaction to was posted.",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

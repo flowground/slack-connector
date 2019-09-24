@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "token": {
+            "type": "string"
+        },
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "comment": {
+                    "description": "Text of the comment to edit.",
+                    "type": "string"
+                },
+                "id": {
+                    "description": "The comment to edit.",
+                    "type": "string"
+                },
+                "file": {
+                    "description": "File containing the comment to edit.",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

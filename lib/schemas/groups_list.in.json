@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "exclude_members": {
+            "type": "boolean"
+        },
+        "token": {
+            "type": "string"
+        },
+        "exclude_archived": {
+            "type": "boolean"
+        }
+    }
+}

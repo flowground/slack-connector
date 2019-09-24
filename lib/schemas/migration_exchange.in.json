@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "token": {
+            "type": "string"
+        },
+        "to_old": {
+            "type": "boolean"
+        },
+        "users": {
+            "type": "string"
+        }
+    }
+}

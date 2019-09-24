@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "token": {
+            "type": "string"
+        },
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "description": "Name of the public or private channel to create",
+                    "type": "string"
+                },
+                "is_private": {
+                    "description": "Create a private channel instead of a public one",
+                    "type": "boolean"
+                }
+            }
+        }
+    }
+}

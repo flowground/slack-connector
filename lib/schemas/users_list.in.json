@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "presence": {
+            "type": "boolean"
+        },
+        "cursor": {
+            "type": "string"
+        },
+        "token": {
+            "type": "string"
+        },
+        "limit": {
+            "type": "integer"
+        },
+        "include_locale": {
+            "type": "boolean"
+        }
+    }
+}

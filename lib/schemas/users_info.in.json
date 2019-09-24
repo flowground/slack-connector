@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "include_locale": {
+            "type": "boolean"
+        },
+        "token": {
+            "type": "string"
+        },
+        "user": {
+            "type": "string"
+        }
+    }
+}

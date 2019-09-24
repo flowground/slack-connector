@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "count": {
+            "type": "string"
+        },
+        "token": {
+            "type": "string"
+        },
+        "file": {
+            "type": "string"
+        },
+        "page": {
+            "type": "string"
+        }
+    }
+}

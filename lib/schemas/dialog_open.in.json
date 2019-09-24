@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "token": {
+            "type": "string"
+        },
+        "dialog": {
+            "type": "string"
+        },
+        "trigger_id": {
+            "type": "string"
+        }
+    }
+}

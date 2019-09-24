@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "token": {
+            "type": "string"
+        },
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "comment": {
+                    "description": "Text of the comment to add.",
+                    "type": "string"
+                },
+                "file": {
+                    "description": "File to add a comment to.",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
